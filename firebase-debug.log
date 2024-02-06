@@ -1,0 +1,99 @@
+[debug] [2024-02-06T14:39:42.386Z] ----------------------------------------------------------------------
+[debug] [2024-02-06T14:39:42.390Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Cloud\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-06T14:39:42.391Z] CLI Version:   13.1.0
+[debug] [2024-02-06T14:39:42.392Z] Platform:      win32
+[debug] [2024-02-06T14:39:42.392Z] Node Version:  v20.10.0
+[debug] [2024-02-06T14:39:42.393Z] Time:          Tue Feb 06 2024 17:39:42 GMT+0300 (East Africa Time)
+[debug] [2024-02-06T14:39:42.393Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-06T14:39:42.397Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-02-06T14:39:42.622Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-06T14:39:42.623Z] > authorizing via signed-in user (lemegudata@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Cloud\Desktop\amazonfiles\amazon-frontend-master\amazon-frontend-master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2024-02-06T14:39:46.201Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-02-06T14:39:46.202Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-06T14:41:26.428Z] Using project from CLI flag: clone-38286
+[debug] [2024-02-06T14:41:26.429Z] > refreshing access token with scopes: []
+[debug] [2024-02-06T14:41:26.430Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-06T14:41:26.430Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-06T14:41:31.077Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-02-06T14:41:31.078Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-06T14:41:31.079Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-38286 [none]
+[debug] [2024-02-06T14:41:35.214Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-38286 401
+[debug] [2024-02-06T14:41:35.214Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-38286 {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-02-06T14:41:35.215Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-02-06T14:41:40.258Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Cloud\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:258:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-02-06T14:42:55.163Z] ----------------------------------------------------------------------
+[debug] [2024-02-06T14:42:55.166Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Cloud\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-06T14:42:55.167Z] CLI Version:   13.1.0
+[debug] [2024-02-06T14:42:55.167Z] Platform:      win32
+[debug] [2024-02-06T14:42:55.167Z] Node Version:  v20.10.0
+[debug] [2024-02-06T14:42:55.167Z] Time:          Tue Feb 06 2024 17:42:55 GMT+0300 (East Africa Time)
+[debug] [2024-02-06T14:42:55.167Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-06T14:42:55.310Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-06T14:42:55.311Z] > authorizing via signed-in user (lemegudata@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Cloud\Desktop\amazonfiles\amazon-frontend-master\amazon-frontend-master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-06T14:43:34.049Z] Using project from CLI flag: clone-38286
+[debug] [2024-02-06T14:43:34.050Z] > refreshing access token with scopes: []
+[debug] [2024-02-06T14:43:34.052Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-06T14:43:34.052Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-06T14:43:36.975Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-02-06T14:43:36.975Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-06T14:43:36.977Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-38286 [none]
+[debug] [2024-02-06T14:43:39.759Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-38286 401
+[debug] [2024-02-06T14:43:39.760Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-38286 {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-02-06T14:43:39.762Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-02-06T14:43:40.864Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\Cloud\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Cloud\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project clone-38286. Please make sure the project exists and your account has permission to access it.
